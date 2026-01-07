@@ -58,7 +58,7 @@ log = "0.4"
 
 lightningcss = { version = "1.0.0-alpha.57", features = ["browserslist"] }
 flexi_logger = "0.29.3"
-tokio = { version = "1.40.0", default-features = false, features = ["full"] }
+tokio = { version = "1.43.1", default-features = false, features = ["full"] }
 axum = { version = "0.7.7", features = ["ws"] }
 # not using notify 5.0 because it uses Crossbeam which has an issue with tokio
 notify = "4.0"
@@ -81,7 +81,7 @@ dotenvy = "0.15"
 itertools = "0.13"
 derive_more = { version = "1.0.0", features = ["display"] }
 flate2 = "1.0.34"
-zip = { version = "2.2", default-features = false, features = ["deflate"] }
+zip = { version = "2.3", default-features = false, features = ["deflate"] }
 tar = "0.4.42"
 dunce = "1.0"
 bytes = "1.7.2"
